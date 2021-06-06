@@ -1,0 +1,61 @@
+:root {
+  --yellow: #fff000;
+  --grey: #222;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  display: flex;
+  background-color: var(--yellow);
+  /* width: 100%; */
+  padding: 1rem;
+  flex-flow: row-reverse;
+}
+
+.navbar > .navbar-item {
+  display: block;
+  padding: 5%;
+  list-style: none;
+
+  border-radius: 57px;
+  background: #fff000;
+  box-shadow: inset 26px 26px 68px #b3a800, inset -26px -26px 68px #ffff00;
+}
+header {
+  width: 100%;
+}
+
+.container {
+  margin: 2em;
+  background-color: var(--grey);
+  height: 90vh;
+  display:block;
+}
+
+.main-container{
+    display: grid;
+  grid-template-rows: 5fr 1fr;
+  height: 90%;
+}
+
+.post-container{
+    margin: 1em;
+    background-color: darkgray;
+}
+
+.cards {
+  background-color: rgb(238, 255, 0);
+  padding: .3em;
+  /* margin-bottom:1em; */
+}
+
+.aside{
+    background-color: red;
+    height: 10%;
+    margin: 1em;
+    overflow-y: scroll;
+}
