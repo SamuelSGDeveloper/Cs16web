@@ -60,7 +60,7 @@ const createServerContent = (card) => {
   return `
     <div class="card isSv">
     <h1 class="grid-item-1">${card.title}</h1>
-    <h3 class="grid-item-3">ip: ${card.ip}</h3>
+    <h3 class="grid-item-3">${card.ip}</h3>
     </div>
     `;
 };
