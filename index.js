@@ -27,15 +27,15 @@ let cards = {
       description: "más y más complejo, seguiré avanzando :D"
   }
 };
-
+//---------------------------------------------
 let servers = {
   1: {
-    title: "aaaaaaa",
-    ip: "12.21.2.21.2",
+    title: "Emirates-KiNGS 亗 ||͇̿P͇̿U͇̿B͇̿L͇̿I͇̿C͇̿| ✪",
+    ip: "51.38.60.53:27015",
   },
   2: {
-    title: "aaaaworksaaa",
-    ip: "12.21.2.21.2",
+    title: "	-= RESPAWN.WESTCSTRIKE.RO # BEST RESPAWN SERVER =-",
+    ip: "87.98.241.203:27015",
   },
 };
 //---------------------------------------------
